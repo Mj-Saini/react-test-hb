@@ -13,7 +13,7 @@ import ContectUs from "./pages/ContectUs";
 function App() {
   return (
     <>
-      <div style={{ zIndex: "99" }} className="position-relative">
+      <div style={{ zIndex: "99" }} className=" position-sticky top-0">
         <Header />
       </div>
       <Routes>

@@ -59,7 +59,7 @@ const Reviews = () => {
                           setActiveArrow("left");
                           sliderArrow.current.slickPrev();
                         }}
-                        className={`bg-white rounded-5 d-flex align-items-center justify-content-center slider_arrow ${
+                        className={`bg-white rounded-5 d-flex align-items-center justify-content-center slider_arrow cursor_pointer ${
                           activeArrow === "left" ? "active_arrow" : ""
                         }`}
                       >
@@ -70,7 +70,7 @@ const Reviews = () => {
                           setActiveArrow("right");
                           sliderArrow.current.slickPrev();
                         }}
-                        className={`bg-white rounded-5 d-flex align-items-center justify-content-center slider_arrow ${
+                        className={`bg-white rounded-5 d-flex align-items-center justify-content-center slider_arrow cursor_pointer ${
                           activeArrow === "right" ? "active_arrow" : ""
                         }`}
                       >

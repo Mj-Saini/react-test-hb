@@ -19,6 +19,12 @@ const Footer = () => {
           >
             {FooterLinks.map((obj, index) => (
               <Link
+                onClick={() =>
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  })
+                }
                 key={index}
                 to={obj.path}
                 className="ff_inter fw-normal fs_sm text-white header_tabs transition_03"

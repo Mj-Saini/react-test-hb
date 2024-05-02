@@ -11,7 +11,7 @@ const Header = () => {
     document.body.style.overflow = "auto";
   }
   return (
-    <div className="bg_primary py-3">
+    <div className="bg_primary py-3 position-sticky top-0">
       <div className="container custom_container">
         <div className="d-flex justify-content-between align-items-center">
           <span>
@@ -26,7 +26,13 @@ const Header = () => {
           >
             {headerTabs.map((obj, index) => (
               <Link
-                onClick={() => setNavbar(false)}
+                onClick={() => {
+                  setNavbar(false);
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
                 key={index}
                 to={obj.path}
                 className="ff_inter fw-normal fs_sm text-white header_tabs transition_03"
