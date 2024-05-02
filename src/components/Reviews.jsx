@@ -10,6 +10,7 @@ const Reviews = () => {
     dots: false,
     infinite: true,
     speed: 500,
+    arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -40,7 +41,7 @@ const Reviews = () => {
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
                   </p>
-                  <div className="d-flex justify-content-between mt-4 mt-md-5">
+                  <div className="d-flex flex-column flex-sm-row align-items-center gap-4 gap-sm-0 justify-content-between mt-4 mt-md-5">
                     <div className="d-flex gap-2 align-items-center ">
                       <img w={48} h={48} src={profileImg} alt="profile" />
                       <div>
@@ -52,7 +53,7 @@ const Reviews = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="d-flex align-items-center gap-4">
+                    <div className="d-flex align-items-center gap-2 gap-sm-4">
                       <span
                         onClick={() => {
                           setActiveArrow("left");

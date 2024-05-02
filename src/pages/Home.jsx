@@ -12,10 +12,10 @@ import Hero from "../components/Hero";
 const Home = () => {
   return (
     <>
-      <Hero/>
+      <Hero />
       <FeaturedPost />
       <Contents />
-      <Category />
+      <Category heading="Choose A Catagory" styling="text-center" />
       <WeStarted />
       <Author />
       <Featured />

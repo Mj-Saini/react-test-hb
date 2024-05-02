@@ -194,6 +194,10 @@ textarea {
   border-bottom: 1px solid rgba(255, 255, 255, 0.123);
 }
 
+.border_b_blog {
+  border-bottom: 1px solid #6D6E76
+}
+
 @media (min-width:991.98px) {
   #footer .input_parant {
     padding: 80px 64px !important;
