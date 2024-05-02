@@ -179,7 +179,7 @@ textarea {
 }
 
 ::placeholder {
-  color: var(--primary-color) !important;
+  color: var(--primary-color);
 }
 
 :focus-visible {
