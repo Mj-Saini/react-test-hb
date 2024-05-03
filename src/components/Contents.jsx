@@ -1,10 +1,10 @@
 import React from "react";
 
-const Contents = () => {
+const Contents = ({ hide, spacing }) => {
   return (
-    <div className="py-md-5 pb-5 pt-4">
+    <div className={`${spacing}`}>
       <div className="container custom_container">
-        <div className="d-flex justify-content-end">
+        <div className={`d-flex justify-content-end ${hide}`}>
           <div className="col-7 bg_secondary"></div>
           <div style={{ padding: "12.5px 0" }} className="col-3 bg_blue"></div>
         </div>

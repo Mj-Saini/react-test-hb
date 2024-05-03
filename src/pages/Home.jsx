@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <Hero />
       <FeaturedPost />
-      <Contents />
+      <Contents spacing="py-md-5 pb-5 pt-4 " />
       <Category heading="Choose A Catagory" styling="text-center" />
       <WeStarted />
       <Author />

@@ -198,6 +198,25 @@ textarea {
   border-bottom: 1px solid #6D6E76
 }
 
+.yellow_shape {
+  width: 103px;
+  height: 116px;
+  background: #FFD050;
+  border-top-left-radius: 40px;
+  position: absolute;
+}
+
+.voilet_circle {
+  width: 74px;
+  height: 74px;
+  background: #592EA9;
+  border-radius: 999pc;
+  position: absolute;
+  bottom: -35px;
+}
+
+
+
 @media (min-width:991.98px) {
   #footer .input_parant {
     padding: 80px 64px !important;
